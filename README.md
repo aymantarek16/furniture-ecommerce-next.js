@@ -1,7 +1,6 @@
 # 🛋️ Modern Furniture Store
 
-A modern **Furniture E-commerce Store** built with the latest technologies.  
-It includes advanced features such as **Add to Cart**, **Wishlist**, **Dark Mode**, **Pagination**, **Local Storage**, and smooth animations with **Framer Motion**.
+A fully-featured and modern Furniture E-commerce Store designed to deliver a smooth shopping experience.
 
 ---
 
@@ -36,58 +35,14 @@ It includes advanced features such as **Add to Cart**, **Wishlist**, **Dark Mode
 
 
 ### 🏠 Products
-![Home Page](./products.png)
+![Home Page](./puplic/products.png)
 
 ### 🛒 Cart Page
-![Cart Page](./cartPage.png)
+![Cart Page](./puplic//cartPage.png)
 
 ### 💖 Wishlist
-![Wishlist](./screenshots/wishlist.png)
+![Wishlist](./puplic//screenshots/wishlist.png)
 
----
-
-## 📂 Project Structure
-
-The project is organized with a clean and modular structure to ensure scalability and maintainability:
-
-📦 src
-┣ 📂 app
-┃ ┣ 📂 cart
-┃ ┃ ┣ 📜 CartPage.jsx
-┃ ┃ ┗ 📜 page.jsx
-┃ ┣ 📂 checkout
-┃ ┣ 📂 home
-┃ ┣ 📂 new-arrivals
-┃ ┃ ┗ 📜 page.jsx
-┃ ┣ 📂 products
-┃ ┃ ┣ 📜 page.jsx
-┃ ┃ ┗ 📜 Products.jsx
-┃ ┣ 📂 styles
-┃ ┃ ┣ 📜 darkMode.css
-┃ ┃ ┗ 📜 globals.css
-┃ ┣ 📂 top-sellers
-┃ ┣ 📂 wishlist
-┃ ┃ ┣ 📜 page.jsx
-┃ ┃ ┗ 📜 Wishlist.jsx
-┃ ┣ 📜 layout.js
-┃ ┗ 📜 page.js
-┣ 📂 components
-┃ ┣ 📜 CardCarousel.jsx
-┃ ┣ 📜 Categories.jsx
-┃ ┣ 📜 LoadingSpinner.jsx
-┃ ┣ 📜 Navbar.jsx
-┃ ┣ 📜 NewArrivals.jsx
-┃ ┣ 📜 ProductCard.jsx
-┃ ┣ 📜 ReduxProvider.jsx
-┃ ┣ 📜 SliderComponent.jsx
-┃ ┗ 📜 TopSellers.jsx
-┣ 📂 lib
-┃ ┣ 📜 cartSlice.js
-┃ ┣ 📜 store.js
-┃ ┗ 📜 wishlistSlice.js
-┣ 📂 utils
-┃ ┗ 📜 localStorage.js
-┗ 📜 .gitignore
 ---
 
 ## ⚙️ Installation & Setup
