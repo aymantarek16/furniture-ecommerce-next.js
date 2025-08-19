@@ -46,8 +46,6 @@ A fully-featured and modern Furniture E-commerce Store designed to deliver a smo
 
 ## ⚙️ Installation & Setup
 
-## ⚙️ Installation & Setup
-
 1. Clone the repository  
    ```bash
    git clone https://github.com/aymantarek16/furniture-store.git
