@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛋️ Modern Furniture Store
 
-## Getting Started
+A modern **Furniture E-commerce Store** built with the latest technologies.  
+It includes advanced features such as **Add to Cart**, **Wishlist**, **Dark Mode**, **Pagination**, **Local Storage**, and smooth animations with **Framer Motion**.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Features
+
+- 🛒 **Add to Cart** – Seamlessly add and manage products in the cart.  
+- 💖 **Wishlist (Favorites)** – Save items you love for later.  
+- 🌙 **Dark Mode** – Modern dark/light theme toggle.  
+- 📑 **Pagination** – Browse products with smooth client-side pagination.  
+- 💾 **Local Storage** – Persistent data (Cart & Wishlist saved even after refresh).  
+- 🎭 **Framer Motion Animations** – Smooth and elegant UI transitions.  
+- 📱 **Responsive Design** – Optimized for all devices (Mobile, Tablet, Desktop).  
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚡ [Next.js 15.4.5 (Turbopack)](https://nextjs.org/) – React Framework  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- 🎭 [Framer Motion](https://www.framer.com/motion/) – Animation library  
+- 🔥 [React Hot Toast](https://react-hot-toast.com/) – Notifications  
+- 🌀 [React Slick](https://react-slick.neostack.com/) – Product slider  
+- ⚛️ [Redux Toolkit](https://redux-toolkit.js.org/) – State management  
+- 📖 [React Paginate](https://github.com/AdeleD/react-paginate) – Pagination component  
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./screenshots/home.png)
+
+
+### 🏠 Products
+![Home Page](./products.png)
+
+### 🛒 Cart Page
+![Cart Page](./cartPage.png)
+
+### 💖 Wishlist
+![Wishlist](./screenshots/wishlist.png)
+
+---
+
+## 📂 Project Structure
+
+The project is organized with a clean and modular structure to ensure scalability and maintainability:
+
+📦 src
+┣ 📂 app
+┃ ┣ 📂 cart
+┃ ┃ ┣ 📜 CartPage.jsx
+┃ ┃ ┗ 📜 page.jsx
+┃ ┣ 📂 checkout
+┃ ┣ 📂 home
+┃ ┣ 📂 new-arrivals
+┃ ┃ ┗ 📜 page.jsx
+┃ ┣ 📂 products
+┃ ┃ ┣ 📜 page.jsx
+┃ ┃ ┗ 📜 Products.jsx
+┃ ┣ 📂 styles
+┃ ┃ ┣ 📜 darkMode.css
+┃ ┃ ┗ 📜 globals.css
+┃ ┣ 📂 top-sellers
+┃ ┣ 📂 wishlist
+┃ ┃ ┣ 📜 page.jsx
+┃ ┃ ┗ 📜 Wishlist.jsx
+┃ ┣ 📜 layout.js
+┃ ┗ 📜 page.js
+┣ 📂 components
+┃ ┣ 📜 CardCarousel.jsx
+┃ ┣ 📜 Categories.jsx
+┃ ┣ 📜 LoadingSpinner.jsx
+┃ ┣ 📜 Navbar.jsx
+┃ ┣ 📜 NewArrivals.jsx
+┃ ┣ 📜 ProductCard.jsx
+┃ ┣ 📜 ReduxProvider.jsx
+┃ ┣ 📜 SliderComponent.jsx
+┃ ┗ 📜 TopSellers.jsx
+┣ 📂 lib
+┃ ┣ 📜 cartSlice.js
+┃ ┣ 📜 store.js
+┃ ┗ 📜 wishlistSlice.js
+┣ 📂 utils
+┃ ┗ 📜 localStorage.js
+┗ 📜 .gitignore
+---
+
+## ⚙️ Installation & Setup
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/aymantarek16/furniture-store.git
+
+2. Navigate to the project folder
+cd furniture-store
+
+
+3. Install dependencies
+npm install
+
+
+4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Open http://localhost:3000 in your browser 🚀
