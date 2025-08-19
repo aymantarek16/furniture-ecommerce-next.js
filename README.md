@@ -31,17 +31,16 @@ A fully-featured and modern Furniture E-commerce Store designed to deliver a smo
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./public/screenshots/home.png)
-
+![Home Page](./screenshots/home.png)
 
 ### 🏠 Products
-![Products](./public/products.png)
+![Products](./screenshots/products.png)
 
 ### 🛒 Cart Page
-![Cart Page](./public//cartPage.png)
+![Cart Page](./screenshots/cartPage.png)
 
 ### 💖 Wishlist
-![Wishlist](./public//screenshots/wishlist.png)
+![Wishlist](./screenshots/wishlist.png)
 
 ---
 
