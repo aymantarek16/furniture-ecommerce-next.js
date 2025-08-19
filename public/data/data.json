@@ -1,0 +1,166 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "/images/modern-sofa.jpg",
+      "text": "Modern Sofa",
+      "price": 299,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Fabric",
+      "roomtype": "Living Room",
+      "style": "Modern",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "image": "/images/dining-table.jpg",
+      "text": "Dining Table",
+      "price": 89,
+      "category": "Furniture",
+      "inStock": false,
+      "material": "Wood",
+      "roomtype": "Dining Room",
+      "style": "Rustic",
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "image": "/images/bar-stool.jpg",
+      "text": "Bar Stools",
+      "price": 149,
+      "category": "Furniture",
+      "inStock": false,
+      "material": "Glass",
+      "roomtype": "Dining Room",
+      "style": "Modern",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "image": "/images/bed.jpg",
+      "text": "Bed Frame",
+      "price": 499,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Leather",
+      "roomtype": "Bedroom",
+      "style": "Traditional",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "image": "/images/chair.jpg",
+      "text": "Armchair",
+      "price": 399,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Wood",
+      "roomtype": "Living Room",
+      "style": "Scandinavian",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "image": "/images/bookshelf.jpg",
+      "text": "Bookshelf",
+      "price": 129,
+      "category": "Decor",
+      "inStock": true,
+      "material": "Wood",
+      "roomtype": "Office",
+      "style": "Minimalist",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "image": "/images/wardrobe-closet.jpg",
+      "text": "Wardrobe Closet",
+      "price": 249,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Metal",
+      "roomtype": "Bedroom",
+      "style": "Industrial",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "image": "/images/nightstand.jpg",
+      "text": "Nightstand",
+      "price": 39,
+      "category": "Lighting",
+      "inStock": true,
+      "material": "Metal",
+      "roomtype": "Office",
+      "style": "Modern",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "image": "/images/kitchen-island.jpg",
+      "text": "Kitchen Island",
+      "price": 349,
+      "category": "Furniture",
+      "inStock": false,
+      "material": "Leather",
+      "roomtype": "Kitchen",
+      "style": "Traditional",
+      "quantity": 1
+    },
+  
+    {
+      "id": 10,
+      "image": "/images/stand.jpg",
+      "text": "TV Stand",
+      "price": 179,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Fabric",
+      "roomtype": "Living Room",
+      "style": "Mid-Century",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "image": "/images/bed-room.jpg",
+      "text": "Bed Room",
+      "price": 310,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Wood",
+      "roomtype": "Bedroom",
+      "style": "Contemporary",
+      "quantity": 1
+    },
+        {
+      "id": 12,
+      "image": "/images/kitchen.jpg",
+      "text": "Kitchen",
+      "price": 500,
+      "category": "Furniture",
+      "inStock": true,
+      "material": "Metal",
+      "roomtype": "Kitchen",
+      "style": "Contemporary",
+      "quantity": 1
+    }
+  ],
+
+
+  
+  "categories": [
+    {
+      "image": "/images/living-room.jpg",
+      "buttonText": "Living Room"
+    },
+    {
+      "image": "/images/bed-room.jpg",
+      "buttonText": "Bed Room"
+    },
+    {
+      "image": "/images/kitchen.jpg",
+      "buttonText": "Kitchen"
+    }
+  ]
+}
