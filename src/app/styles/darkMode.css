@@ -1,7 +1,8 @@
 @import "tailwindcss";
+
 /* =====================================================
-  Dark Mode Styles
-  ===================================================== */
+   🌙 Dark Mode Global Styles
+   ===================================================== */
 body {
   @apply bg-white text-gray-800;
 }
@@ -10,27 +11,31 @@ body.dark {
   @apply bg-zinc-900 text-gray-200;
 }
 
+/* ================== Links & Icons ================== */
 body.dark a {
   @apply hover:text-pink-400;
 }
+
 body.dark .navIcon svg {
   @apply text-gray-300 hover:text-pink-400;
 }
 
+/* ================== Navigation & Menu ================== */
 body.dark nav {
   @apply bg-zinc-800 shadow-lg;
 }
 
 body.dark .mobMenu {
-  /* Shadow gray please */
-  @apply bg-zinc-900 text-white shadow-gray-800 shadow-lg;
+  @apply bg-zinc-900 text-white shadow-lg shadow-gray-800;
 }
 
+/* ================== Carousel Controls ================== */
 body.dark .slick-prev:before,
 body.dark .slick-next:before {
   @apply text-amber-100;
 }
 
+/* ================== Titles ================== */
 body.dark .carouselTitle,
 body.dark .ProductsTitle {
   @apply text-white;
@@ -40,8 +45,10 @@ body.dark .viewMoreTitle {
   @apply text-white hover:text-[#a91f64];
 }
 
+/* ================== Filters Section ================== */
 body.dark .filterSection {
-  @apply bg-gradient-to-bl from-zinc-800 to-zinc-900 p-4 rounded-lg shadow-lg;
+  @apply bg-gradient-to-bl from-zinc-800 to-zinc-900 
+         p-4 rounded-lg shadow-lg;
 }
 
 body.dark .filterSection h3,
@@ -49,6 +56,7 @@ body.dark .filterSection h4 {
   @apply text-white;
 }
 
+/* ================== Products ================== */
 body.dark .ProductsList h2,
 body.dark .ProductsList div span,
 body.dark .ProductsList div .select {
@@ -59,25 +67,24 @@ body.dark .ProductsList div .select option {
   @apply text-zinc-600;
 }
 
-/* Checkout form specific */
+/* ================== Checkout Form ================== */
 body.dark .formContainer {
-@apply bg-zinc-900 shadow-2xl shadow-black p-8 rounded-xl;
+  @apply bg-zinc-900 shadow-2xl shadow-black 
+         p-8 rounded-xl;
 }
 
 body.dark .formContainer label {
   @apply mb-3;
 }
 
-
-body.dark .favTable{
+/* ================== Favorites Table ================== */
+body.dark .favTable {
   @apply bg-zinc-800 shadow-lg border-none;
 }
 
-
-
-
-
-/* Media Query */
+/* =====================================================
+   📱 Responsive Adjustments
+   ===================================================== */
 @media (max-width: 768px) {
   body.dark .slick-prev:before,
   body.dark .slick-next:before {
