@@ -52,15 +52,15 @@ A fully-featured and modern Furniture E-commerce Store designed to deliver a smo
    ```bash
    git clone https://github.com/aymantarek16/furniture-store.git
 
-2. Navigate to the project folder
-cd furniture-store
+2. Navigate to the project folder :
+ cd furniture-store
 
 
-3. Install dependencies
-npm install
+3. Install dependencies :
+ npm install
 
 
-4. Run the development server
-npm run dev
+4. Run the development server : 
+ npm run dev
 
 5. Open http://localhost:3000 in your browser 🚀
