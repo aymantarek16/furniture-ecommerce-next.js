@@ -42,11 +42,13 @@ const removeItem = useCallback((id) => {
   return (
     <div className="w-full max-w-7xl mx-auto my-12 px-4">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-        Shopping Bag
+        Shopping Cart
       </h1>
       <p className={cartItems.length === 0 ? "hidden" : "mb-4 text-center"}>
-        <span className="text-[#ce498c] font-semibold">{cartItems.length}</span>{" "}
-        Items in the bag
+        <span className="text-[#ce498c] font-semibold"></span>{" "}
+        Items in the Cart  : <span className="text-green-500">
+          {cartItems.length}
+        </span>
       </p>
 
       <div className="flex flex-col lg:flex-row gap-6">

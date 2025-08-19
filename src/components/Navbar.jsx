@@ -89,8 +89,7 @@ const wishlistItemCount = wishlistItems.length;
 
       {/* right section: icons */}
       <div className="flex items-center gap-6 text-gray-700 text-xl">
-        <div className="navIcon flex gap-4 md:gap-6">
-          <FaTruck className=" hover:text-[#a01f64] cursor-pointer" />
+        <div className="navIcon flex gap-6 md:gap-8">
           <Link href="/wishlist" className="relative">
             <FaHeart className=" hover:text-[#a01f64]" />
               {wishlistItemCount > 0 && (

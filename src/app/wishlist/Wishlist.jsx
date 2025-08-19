@@ -110,7 +110,7 @@ const Wishlist = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-4">
       <h2 className="text-xl md:text-2xl font-bold bg-[#8d1841] text-white text-center mb-6 p-4 rounded-2xl w-full md:w-2/4 mx-auto shadow-md">
-        Your Favourite Products{" "}
+        Your Favourite Products : {" "}
         <span className="text-green-500">{wishlistItems.length}</span>
       </h2>
       {wishlistItems.length === 0 ? (
