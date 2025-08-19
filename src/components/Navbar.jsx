@@ -55,9 +55,8 @@ const wishlistItemCount = wishlistItems.length;
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "New Arrivals", href: "/new-arrivals" },
-    { label: "Top Sellers", href: "/top-sellers" },
     { label: "Products", href: "/products" },
+    { label: "About Us", href: "/aboutus" },
   ];
 
   return (
